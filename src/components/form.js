@@ -19,7 +19,7 @@ function Form({ handleText }) {
       <form onSubmit={handleInput}>
         <input
           className=""
-          placeholder="Enter your message"
+          placeholder="Type here"
           type="text"
           // onChange={handleInputText}
           ref={inputRef}
