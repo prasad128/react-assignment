@@ -48,6 +48,7 @@ export default function App() {
     const timer = setInterval(() => {
       setMessage(
         produce(message, (draft) => {
+          setCount(0);
           draft.shift();
         })
       );
